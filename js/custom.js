@@ -3,16 +3,12 @@ jQuery(document).ready(function () {
 
     $('#carouselHacked').carousel();
 
-    //this code is for the gmap
-    var map = new GMaps({
-        el: '#map',
-        lat: -12.043333,
-        lng: -77.028333
-    });
-
-
     //this code is for smooth scroll and nav selector
     $(document).ready(function () {
+        jQuery(".top-header .header-logo").css({
+                "margin-top": "20px",
+                "margin-bottom": "25px"
+            });
         $(document).on("scroll", onScroll);
 
         //smoothscroll
@@ -60,8 +56,8 @@ jQuery(document).ready(function () {
             jQuery(".header").css({
                 "background": "#B193DD",
             });
-            jQuery(".top-header img.logo").css({
-                "margin-top": "-40px",
+            jQuery(".top-header .header-logo").css({
+                "margin-top": "0px",
                 "margin-bottom": "0"
             });
             jQuery(".navbar-default").css({
@@ -71,8 +67,8 @@ jQuery(document).ready(function () {
             jQuery(".header").css({
                 "background": "transparent",
             });
-            jQuery(".top-header img.logo").css({
-                "margin-top": "-15px",
+            jQuery(".top-header .header-logo").css({
+                "margin-top": "20px",
                 "margin-bottom": "25px"
             });
             jQuery(".navbar-default").css({

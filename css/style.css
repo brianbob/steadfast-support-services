@@ -195,6 +195,14 @@ li a.active {
 
 /*about area*/
 
+.about img {
+    max-height: 300px;
+}
+
+.about .about-details {
+    height: 225px;
+}
+
 .about h2 {
     font-size: 90px;
     color: #42b3e5;
@@ -287,7 +295,7 @@ li a.active {
 
 .service {
     background: url(../img/pattern.jpg);
-    background-repeat: repeat-y;
+    background-repeat: repeat;
     margin-top: 40px;
 }
 .service h2 {
@@ -295,6 +303,11 @@ li a.active {
     color: #fff;
     margin-top: 70px;
     margin-bottom: 0;
+}
+.service .single-service h3 {
+    margin-top: 20px;
+    padding-bottom: 0px;
+    font-size: 34px;
 }
 .service h4 {
     font-size: 24px;
@@ -589,6 +602,8 @@ li a.active {
     left: 0;
     margin-top: -830px;
     background: rgba(0, 0, 0, 0.51);
+    background-image: url("../img/map.png");
+    background-size: 100% 100%;
 }
 .contact-caption {
     margin-top: 120px;
